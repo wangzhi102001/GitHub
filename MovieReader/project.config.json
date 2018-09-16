@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.4",
-	"appid": "wx496e48de78fd2ff8",
-	"projectname": "WXtest",
+	"appid": "wx0ad85a7b0690f4db",
+	"projectname": "MovieReader",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
