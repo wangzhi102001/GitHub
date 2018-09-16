@@ -1,0 +1,46 @@
+<!-- pages/posts/posts.wxml -->
+<view>
+    <swiper indicator-dots='true' autoplay='true' interval='3000'>
+        <swiper-item>
+            <image src="/images/posts/xiaolong.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/posts/bl.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/posts/vr.png"></image>
+        </swiper-item>
+    </swiper>
+    <!-- swiper组件 -->
+    <view class='post-container'>
+        <view class='post-author-date'>
+            <image class='post-author' src='/images/posts/avatar/1.png'></image>
+            <text class='post-date'>Nov 25 2017</text>
+        </view>
+        <text class='post-title'>0001</text>
+        <image class='post-pic' src='/images/posts/cat.png'></image>
+        <text class='post-info'>4564465465456489464646431654</text>
+        <view class='post-like'>
+            <image class='post-like-image' src='/images/icon/chat.png'></image>
+            <text class='post-like-font'>23</text>
+            <image class='post-like-image' src='/images/icon/view.png'></image>
+            <text class='post-like-font'>33</text>
+        </view>
+    </view> 
+    <!-- 单个阅读卡 -->
+    <view class='post-container'>
+        <view class='post-author-date'>
+            <image class='post-author' src='/images/posts/avatar/2.png'></image>
+            <text class='post-date'>Nov 26 2017</text>
+        </view>
+        <text class='post-title'>0001</text>
+        <image class='post-pic' src='/images/posts/crab.png'></image>
+        <text class='post-info'>4564465465456489464646431654</text>
+        <view class='post-like'>
+            <image class='post-like-image' src='/images/icon/chat.png'></image>
+            <text class='post-like-font'>23</text>
+            <image class='post-like-image' src='/images/icon/view.png'></image>
+            <text class='post-like-font'>33</text>
+        </view>
+    </view> 
+</view>
